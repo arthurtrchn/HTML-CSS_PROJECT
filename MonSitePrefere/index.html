@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Portfolio - Arthur TROCHON</title>
+
+    <link rel="icon" type="image/png" href="../MonSitePrefere/assets/images/photoDeProfil.jpeg"/>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Lien vers l'image du logo du site web -->
+    <link rel="icon" type="image/png" href="assets/images/icon-page.png"/>
+
+
+    <!-- Lien vers le CDN Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Lien vers le CDN css Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+    <!-- Lien vers le CDN JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Lien vers le script Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Lien vers le dossier Font Lato -->
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+    <!-- Lien vers le dossierde style css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Lien vers le dossier css icones awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+
+</head>
+<body>
+<header id="enHaut">
+    <!-- Navbar -->
+
+    <!-- <nav id="navbar1" class="navbar navbar-expand-md bg-light fixed-top h-16">
+        <div class="container bg-white">
+
+                <span class="navbar-brand">Arthur TROCHON</span>
+    
+                <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false"
+                        aria-label="Toggle navigation"><span class="dark-blue-text">
+        <i class="fa fa-bars fa-1x"></i></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link text-amber-400" href="javascript:alert('Tu es déjà sur la page !!!!!!!!')">A Propos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../MonSitePrefere/pages/list.html">Liste</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../MonSitePrefere/pages/gallery.html">Galerie</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../MonSitePrefere/pages/contactMe.html">Me Contacter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav> -->
+
+    <nav class="
+          flex flex-wrap
+          items-center
+          justify-around
+          w-full
+          py-3
+          md:py-0
+          px-3
+          text-lg text-gray-700
+          bg-gray-50
+        ">
+        <div>
+            <a href="#">
+                <span class="text-gray-500 text-xl uppercase font-bold">Arthur TROCHON</span>
+            </a>
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" id="menu-button" class="h-6 w-6 cursor-pointer md:hidden block"
+             fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+
+        <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+            <ul class="
+              text-base text-gray-700
+              md:flex
+              md:justify-between 
+              md:pt-0">
+                <li><a class="md:p-4 py-2 block uppercase text-amber-400"
+                       href="javascript:alert('Tu es déjà sur la page !!!!!!!!')">A Propos</a></li>
+                <li><a class="md:p-4 py-2 block uppercase hover:text-amber-400"
+                       href="../MonSitePrefere/pages/list.html">Liste</a></li>
+                <li><a class="md:p-4 py-2 block hover:text-amber-400 uppercase"
+                       href="../MonSitePrefere/pages/gallery.html">Galerie</a></li>
+                <li><a class="md:p-4 py-2 block uppercase hover:text-amber-400"
+                       href="../../MonSitePrefere/pages/contactMe.html">Me Contacter</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<main class="mt-16">
+    <div class="container  text-center mb-6" id="Accueil">
+        <div class="font-bold title">
+            <h1 class="text-7xl">Communication. <span class="text-amber-400">Esprit d'équipe.</span><br>Détermination.
+            </h1>
+        </div>
+        <div class="row subtitle">
+            <h6>Voilà ce qui me caractérise</h6>
+        </div>
+        <div class="row text">
+            <h5>Bienvenue sur mon Portfolio web, vous retrouverez ici toutes les informations essentielles me
+                concernant. <br><br>Bonne visite à vous.</h5>
+        </div>
+    </div>
+    <div class="container column text-center" id="ImageBackgroundAccueil">
+        <div class="row img">
+            <div class="col-md-12 flex justify-center">
+                <img src="assets/images/intelligenceArtificielle.jpg" alt="intelligence artificielle photo"
+                     class="rounded-circle">
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <div class="container" id="Apropos">
+        <div class="row justify-content-center row-title">
+            <h1 class="title">A propos</h1>
+        </div>
+        <div class="row ">
+            <div class="col-md-6 ">
+                <div class="portfolio-block ">
+                    <h4 class="title">Informations personnelles</h4>
+                    <div class="blue-divider"></div>
+                    <p>Je suis actuellement en <strong>stage « Développement logiciel »</strong> chez Thales
+                        <i>(Laval)</i> pendant 11 semaines en vu de l’obtention
+                        de mon DUT Informatique.</p>
+                    <p>Je suis à la <strong>recherche d’une Alternance</strong> en Bac + 3 dans les Data Sciences du
+                        côté de Lyon.</p>
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <div class="portfolio-block text">
+                    <h4 class="title">Capacités</h4>
+                    <div class="blue-divider"></div>
+                    <p>Je suis à l'écoute, <strong>j'apprends vite</strong>, <strong>je suis sérieux </strong> et
+                        <strong>je m'adapte facilement</strong> dans mon travail. </p>
+                    <p>Je suis quelqu’un qui aime <strong>communiquer</strong> et force de proposition. Je suis <strong>déterminé</strong>
+                        et <strong>envieux</strong> de faire partie d’un projet et d’une équipe dans un <strong>cadre
+                            professionnel</strong>.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row text justify-content-center">
+            <div class="col-md-6">
+                <div class="portfolio-block much-longer">
+                    <h4 class="title">Hobbies et centres d'intêrets</h4>
+                    <div class="blue-divider"></div>
+                    <p>Je pratique le <strong>football en club</strong> depuis l'âge de 5 ans et je suis actuellement
+                        joueur en <strong>Régionale 3 Bretagne</strong> (ASC Romagné). </p>
+                    <p class="subtitle">Esprit d'équipe, Endurance Physique et Mental</p>
+                    <br>
+                    <p>J'aime
+                        <sport> tous les sports en général</sport>
+                        et en pratique chaque semaine (Tennis, Course à pied, Football...), je fais aussi de la
+                        musculation depuis peu de temps.
+                    </p>
+                    <br>
+                    <p>J'aime aussi lire, ma dernière lecture est <strong>“Harry Potter and the philosopher's
+                        stone”</strong> en Anglais, je vais prochainement acheter <i>“Disruption -
+                        Intelligence artificielle, fin du salariat, humanité augmentée”</i>, un livre de Stéphane
+                        Mallard.</p>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="row justify-content-center" id="Etiquettes">
+            <div class="col-md-4 d-flex justify-content-around">
+                <button class="etiquettes">20 ans</button>
+                <button class="etiquettes">Permis B</button>
+            </div>
+            <div class="col-md-4 d-flex justify-content-around">
+                <button class="etiquettes">Véhiculé</button>
+                <button class="etiquettes">Sport</button>
+            </div>
+        </div>
+        <div class="row justify-content-center pt-3">
+            <div class="col-md-4 d-flex justify-content-around">
+                <a href="https://www.facebook.com/ASCROMAGNE" class="linkedIn "><i class="fas fa-link"> ASC Romagné</i>
+                </a>
+                <a href="https://www.linkedin.com/in/trochon-arthur" class="linkedIn"> <i class="fas fa-link">
+                    LinkedIn</i> </a>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="ImageBackgroundCompetences">
+        <div class="row img">
+            <div class="col-md-12 block-gif text-center">
+                <iframe src="https://giphy.com/embed/eljCVpMrhepUSgZaVP" width="480" height="480" frameBorder="0"
+                        class="giphy-embed" allowFullScreen></iframe>
+                <p></p>
+                <a class="subtitle" href="https://giphy.com/gifs/blue-white-brain-eljCVpMrhepUSgZaVP">via GIPHY</a>
+            </div>
+
+        </div>
+    </div>
+    <div class="container" id="Competences">
+        <div class="row justify-content-center row-title">
+            <h1 class="title">Compétences</h1>
+        </div>
+        <div class="row justify-content-center">
+            <!--Carousel Wrapper-->
+            <div class="col-1 d-flex align-items-center justify-content-center">
+                <a href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <div class="carousel-nav-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129"
+                             xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path d="m88.6,121.3c0.8,0.8 1.8,1.2 2.9,1.2s2.1-0.4 2.9-1.2c1.6-1.6 1.6-4.2 0-5.8l-51-51 51-51c1.6-1.6 1.6-4.2 0-5.8s-4.2-1.6-5.8,0l-54,53.9c-1.6,1.6-1.6,4.2 0,5.8l54,53.9z"/>
+                        </svg>
+                    </div>
+                </a>
+            </div>
+            <div class="col-10">
+                <!--Start carousel-->
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div id="carousel-bck-1"
+                                     class="col-12 col-md d-flex align-items-center justify-content-center">
+                                    <h2 id="slideCompetenceDev" class="title">Développement</h2>
+                                </div>
+                                <div
+                                        class="colorBlanc backBleu col-12 col-md d-flex align-items-center justify-content-center text">
+                                    <h4><strong>Compétences acquises</strong></h4><br>
+                                    <h6><strong>WEB :</strong> PHP (+ Symfony), JavaScript (+ JQuery) et HTML&CSS</h6>
+                                    <h6><strong>LOGICIEL :</strong> JAVA</h6>
+                                    <h6><strong>BDD :</strong> SQL & PL/SQl</h6>
+                                </div>
+                                <div
+                                        class="backBlanc colorJaune col-12 col-md d-flex align-items-center justify-content-center text">
+                                    <h4 class="colorJaune"><strong>Futurs Compétences</strong></h4><br>
+                                    <h6>Python et R</h6>
+                                    <h6>NoSQL et MongoDB</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div id="carousel-bck-2"
+                                     class="col-12 col-md d-flex align-items-center justify-content-center">
+                                    <h2 id="slideCompetenceGestion" class="title">Gestion & Droit</h2>
+                                </div>
+                                <div
+                                        class="backBleu col-12 col-md d-flex align-items-center justify-content-center text">
+                                    <h4 class="colorBlanc"><strong>Compétences acquises</strong></h4><br>
+                                    <h6>Méthodes et moyens de projets <strong>(Agiles)</strong></h6>
+                                    <h6><strong>Diriger</strong> une équipe (manager, assumer)</h6>
+                                    <h6>Droit du travail et droit informatique</h6>
+                                </div>
+                                <div
+                                        class="backBlanc colorOrange col-12 col-md d-flex align-items-center justify-content-center text">
+                                    <h4 class="colorOrange"><strong>Futurs Compétences</strong></h4><br>
+                                    <h6>Contrôle de gestion</h6>
+                                    <h6>RGPD</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div id="carousel-bck-3"
+                                     class="col-12 col-md d-flex align-items-center justify-content-center">
+                                    <h2 id="slideCompetenceJuridique" class="title">Mathématiques</h2>
+                                </div>
+                                <div
+                                        class="backBleu colorBlanc col-12 col-md d-flex align-items-center justify-content-center text">
+                                    <h4><strong>Compétences acquises</strong></h4><br>
+                                    <h6>Variables aléatoires</h6>
+                                    <h6>Estimations, probabilités et statistiques</h6>
+                                    <h6>Graphes et langages</h6>
+                                    <h6>Algèbre linéaires et théorie des ensembles</h6>
+                                </div>
+                                <div
+                                        class="backBlanc col-12 col-md d-flex align-items-center justify-content-center text">
+                                    <h4 class="colorJaune"><strong>Futurs Compétences</strong></h4><br>
+                                    <h6>Diagonalisation</h6>
+                                    <h6>Séries et intégrales impropres</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End carousel-->
+            </div>
+
+            <div class="col-1 d-flex align-items-center justify-content-center"><a href="#carouselExampleIndicators"
+                                                                                   data-slide="next">
+                <div class="carousel-nav-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129"
+                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z"/>
+                    </svg>
+                </div>
+            </a>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="container" id="ImageBackgroundFormation">
+        <div class="row img">
+            <div class="col-md-12 block-gif">
+                <iframe src="https://giphy.com/embed/QaMhVZVwOvDiw" width="480" height="480" frameBorder="0"
+                        class="giphy-embed rounded-circle" allowFullScreen></iframe>
+                <a class="subtitle" href="https://giphy.com/gifs/blue-white-brain-eljCVpMrhepUSgZaVP">via GIPHY</a>
+            </div>
+
+        </div>
+    </div>
+    <div id="Formations" class="container">
+        <div class="row justify-content-center row-title">
+            <h1 class="title">Formations</h1>
+        </div>
+
+        <div class="main-timeline">
+            <div class="timeline">
+                <div href="#" class="timeline-content">
+                    <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></i></div>
+                    <h3 class="title">IA School - Lyon</h3>
+                    <p class="text colorGris">2021 - 2022</p>
+                    <p class="text"><strong>Bachelor 3 "Artifical intelligence & Business"</strong></p><br>
+                    <p class="text">Programmation en SQL (NoSql et MongoDB), Python & R <br> Mathématiques appliquées</p><br>
+                    <p class="text">Management & Business <br> Gestion & Droits</p>
+                </div>
+            </div>
+            <div class="timeline">
+                <div href="#" class="timeline-content">
+                    <div class="timeline-icon"><i class="fal fa-graduation-cap"></i></i></div>
+                    <h3 class="title">IUT Laval</h3>
+                    <p class="text colorGris">2019 - 2021</p>
+                    <p class="text"><strong>DUT Informatique</strong></p><br>
+                    <p class="text">Conception, réalisation et mise en œuvre de systèmes informatiques et de réseaux</p><br>
+                    <p class="text">Apprentissages généraux</p>
+                </div>
+            </div>
+            <div class="timeline">
+                <div href="#" class="timeline-content">
+                    <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></i></div>
+                    <h3 class="title">Apprendre-a-coder.com</h3>
+                    <p class="text colorGris">2021</p>
+                    <p class="text"><strong>Formation en ligne "Développeur web"</strong></p><br>
+                    <p class="text">HTML/CSS, Bootstrap, JavaScript, JQuery</p><br>
+                    <p class="text">Responsive design</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="ImageBackgroundProjet">
+        <div class="row img">
+            <div class="col-md-12 block-gif">
+                <!-- <iframe src="https://giphy.com/embed/v7WM6sLcnGIc8" width="480" height="274" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> -->
+    <!-- <iframe src="https://giphy.com/embed/ELham0Mveox9e" width="480" height="322" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+    <a class="subtitle"
+    href="https://giphy.com/gifs/blue-white-brain-eljCVpMrhepUSgZaVP">via GIPHY</a>
+</div>
+
+</div>
+</div> -->
+</main>
+<footer>
+    <div class="mt-3" id="ww_5a366e1c879c7" v='1.3' loc='id'
+         a='{"t":"ticker","lang":"fr","ids":[],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
+        Weather Data Source: <a href="https://london.wetter-heute.org/" id="ww_5a366e1c879c7_u" target="_blank">London
+        wetter heute</a></div>
+    <script async src="https://app1.weatherwidget.org/js/?id=ww_5a366e1c879c7"></script>
+</footer>
+</body>
+</html>
